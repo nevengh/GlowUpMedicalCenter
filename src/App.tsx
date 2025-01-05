@@ -6,6 +6,7 @@ import Hero from './Components/Hero/Hero';
 import About from './Pages/About/About';
 import BottomBanner from './Components/BottomBanner/BottomBanner';
 import Footer from './Components/Footer/Footer';
+import ServicesPage from './Pages/ServicesPage/ServicesPage';
 const App = () => {
   return (
     <div className='App'>
@@ -16,6 +17,9 @@ const App = () => {
       </div>
       <div id="about">
         <About/>
+      </div>
+      <div id="services">
+        <ServicesPage/>
       </div>
       <BottomBanner/>
       <Footer/>
