@@ -1,0 +1,28 @@
+.ne-Footer{
+    background: linear-gradient(180deg, #2F2E2E 0%, #2F2E2E 100%);
+    padding: 10px 0 10px 0;
+}
+.footer-menu-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer-menu-list .nav-link{
+    font-size: 16px !important;
+}
+.footer-icon img{
+    width: 22px;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: #cacaca;
+    transition: color .3s;
+}
+.footer-icon a:hover{
+    text-decoration: none;
+    color: #7a7878;
+}
+.footer-icon svg{
+    width: 45px;
+}

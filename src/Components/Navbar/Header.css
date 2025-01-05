@@ -1,0 +1,38 @@
+.glow-up-logo{
+    width: 85px;
+}
+#dropdown-basic{
+    color: white !important;
+}
+.dropdown{
+    background: linear-gradient(135deg, rgba(172,121,53,1) 0%, rgba(204,201,100,1) 35%);
+    border-radius: 4px;
+    padding: 0 15px 0 15px;
+}
+.dropdown-menu.show{
+    background: linear-gradient(90deg, rgba(172,121,53,1) 0%, rgba(204,201,100,1) 35%);
+}
+.dropdown-item{
+    color: #fff !important;
+}
+.dropdown-item:hover{
+    background: none !important;
+}
+.navbar-toggler{
+    border-color:rgba(172,121,53,1) !important ;
+    background: linear-gradient(90deg, rgba(172,121,53,1) 0%, rgba(204,201,100,1) 35%) !important;
+}
+.nav-link{
+    color: #ccc !important;
+    font-size: 22px !important;
+}
+@media(max-width:767px){
+    .dropdown{
+        background: linear-gradient(135deg, rgba(172,121,53,1) 0%, rgba(204,201,100,1) 35%);
+        border-radius: 4px;
+        padding:0 5px 0 5px !important; 
+        width: 100px;
+        margin-top: 20px;
+    }
+}
+

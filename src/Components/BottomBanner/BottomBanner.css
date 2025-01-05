@@ -1,0 +1,38 @@
+.ne-BottomBanner {
+    width: 100%;
+    display: none;  /* إخفاء الشريط افتراضيًا */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;  /* تثبيت في أسفل الصفحة */
+    bottom: 0;
+    background: linear-gradient(180deg, #2F2E2E 0%, #2F2E2E 100%);  /* لون خلفية */
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);  /* إضافة ظل */
+    z-index: 1000;
+    
+}
+
+.ne-BottomBanner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.ne-BottomBanner a svg {
+    width: 40px;  /* حجم الأيقونة */
+    height: 40px;  /* ارتفاع الأيقونة */
+    fill: #333;  /* لون الأيقونة */
+    transition: transform 0.3s ease;
+}
+.bottom-banner-logo{
+    width: 55px;
+}
+/* عرض فقط في شاشات الموبايل */
+@media (max-width: 768px) {
+    .ne-BottomBanner {
+        display: flex;
+        
+    }
+}

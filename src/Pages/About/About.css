@@ -1,0 +1,48 @@
+
+.ne-About{
+    padding-top: 30px;
+    background: linear-gradient(180deg, #2F2E2E 0%, #2F2E2E 100%);
+}
+.about-images {
+    position: relative;
+    width: 100%;
+    
+  
+  
+}
+.about-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-images::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(1.5px);
+}
+  .about-images h2{
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+    color: rgba(172,121,53,1);
+    font-family: "Charmonman", serif;
+  }
+  .about-Title{
+    font-family: "Charmonman", serif;
+    color: #B69A6F;
+  }
+  .about-text{
+    font-family: "Josefin Sans", serif;
+    line-height: 35px;
+    color: white;
+  }
